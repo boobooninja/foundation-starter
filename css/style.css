@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro);
 /* line 324, ../scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.2.3/"; }
@@ -6671,14 +6672,31 @@ th.hide-for-touch {
   /* line 404, ../scss/foundation/components/_visibility.scss */
   th.show-for-print {
     display: table-cell !important; } }
-/* line 4, ../scss/main.sass */
+/* line 3, ../scss/main.sass */
+* {
+  border: 1px solid red; }
+
+/* line 6, ../scss/main.sass */
 .tab-bar {
   background-color: #007d9a; }
 
-/* line 7, ../scss/main.sass */
+/* line 9, ../scss/main.sass */
 .right-off-canvas-menu {
   background-color: #005164; }
 
-/* line 10, ../scss/main.sass */
+/* line 12, ../scss/main.sass */
 .slide-content {
   margin: 0 6rem; }
+
+/* line 18, ../scss/main.sass */
+.hero-text {
+  margin: 4rem 6rem; }
+  /* line 20, ../scss/main.sass */
+  .hero-text h2, .hero-text h3 {
+    color: white;
+    font-family: "Maven Pro"; }
+
+/* line 24, ../scss/main.sass */
+.full-width {
+  width: 100%;
+  background-color: #005164; }
