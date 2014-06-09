@@ -6674,29 +6674,104 @@ th.hide-for-touch {
     display: table-cell !important; } }
 /* line 3, ../scss/main.sass */
 * {
-  border: 1px solid red; }
+  font-family: "Maven Pro"; }
 
-/* line 6, ../scss/main.sass */
+/* line 8, ../scss/main.sass */
+h2, h3 {
+  color: white;
+  font-family: "Maven Pro"; }
+
+/* line 12, ../scss/main.sass */
 .tab-bar {
   background-color: #007d9a; }
 
-/* line 9, ../scss/main.sass */
+/* line 15, ../scss/main.sass */
 .right-off-canvas-menu {
   background-color: #005164; }
 
-/* line 12, ../scss/main.sass */
-.slide-content {
-  margin: 0 6rem; }
-
-/* line 18, ../scss/main.sass */
-.hero-text {
-  margin: 4rem 6rem; }
-  /* line 20, ../scss/main.sass */
-  .hero-text h2, .hero-text h3 {
-    color: white;
-    font-family: "Maven Pro"; }
-
 /* line 24, ../scss/main.sass */
+.hero-text {
+  width: 100%;
+  margin: 0 auto;
+  height: 20rem;
+  text-align: center;
+  padding-top: 7rem; }
+
+/* line 32, ../scss/main.sass */
 .full-width {
   width: 100%;
   background-color: #005164; }
+
+/* line 37, ../scss/main.sass */
+.orbit-content .row {
+  padding: 2rem 0; }
+
+/* line 40, ../scss/main.sass */
+.icon {
+  color: white;
+  text-shadow: 1px 1px 1px #cccccc;
+  font-size: 5rem;
+  text-align: center; }
+
+/* line 46, ../scss/main.sass */
+.magellan-container {
+  background-color: #63dc83;
+  margin-top: 2.8125rem; }
+  /* line 51, ../scss/main.sass */
+  .magellan-container form input[type="text"], .magellan-container form a {
+    margin-bottom: 0; }
+
+/* line 54, ../scss/main.sass */
+.main-content {
+  font-family: "Maven Pro";
+  color: black; }
+  /* line 57, ../scss/main.sass */
+  .main-content p {
+    font-size: 1.25rem;
+    line-height: 1.5rem; }
+  /* line 60, ../scss/main.sass */
+  .main-content img {
+    display: block;
+    margin: 0 auto;
+    clear: right;
+    max-width: 189px; }
+  /* line 65, ../scss/main.sass */
+  .main-content .row {
+    padding-top: 35px;
+    padding-bottom: 135px;
+    background: url("http://subledger.com/wp-content/themes/subledger/img/asset-deco1.png") center bottom transparent no-repeat; }
+
+/* line 70, ../scss/main.sass */
+#main-content-last {
+  background: none; }
+
+/* line 73, ../scss/main.sass */
+.row.heart {
+  margin: 0;
+  padding-bottom: 0;
+  background-color: #f1f1f1;
+  border-radius: 10px; }
+
+/* line 79, ../scss/main.sass */
+#contact {
+  padding-top: 1rem;
+  background: #005164;
+  text-decoration: none; }
+  /* line 83, ../scss/main.sass */
+  #contact h2 {
+    text-align: center; }
+  /* line 85, ../scss/main.sass */
+  #contact h2, #contact h3, #contact a {
+    font-size: 1rem;
+    color: white; }
+  /* line 88, ../scss/main.sass */
+  #contact p {
+    color: #33afcd; }
+    /* line 90, ../scss/main.sass */
+    #contact p a {
+      color: #33afcd; }
+
+/* line 93, ../scss/main.sass */
+.contact-middle {
+  border-left: 1px dashed #63dc83;
+  border-right: 1px dashed #63dc83; }
