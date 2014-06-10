@@ -6715,63 +6715,62 @@ h2, h3 {
 
 /* line 46, ../scss/main.sass */
 .magellan-container {
-  background-color: #63dc83;
-  margin-top: 2.8125rem; }
+  background-color: #63dc83; }
   /* line 51, ../scss/main.sass */
   .magellan-container form input[type="text"], .magellan-container form a {
     margin-bottom: 0; }
 
-/* line 54, ../scss/main.sass */
+/* line 57, ../scss/main.sass */
 .main-content {
   font-family: "Maven Pro";
   color: black; }
-  /* line 57, ../scss/main.sass */
+  /* line 60, ../scss/main.sass */
   .main-content p {
     font-size: 1.25rem;
     line-height: 1.5rem; }
-  /* line 60, ../scss/main.sass */
+  /* line 63, ../scss/main.sass */
   .main-content img {
     display: block;
     margin: 0 auto;
     clear: right;
     max-width: 189px; }
-  /* line 65, ../scss/main.sass */
+  /* line 68, ../scss/main.sass */
   .main-content .row {
     padding-top: 35px;
     padding-bottom: 135px;
     background: url("http://subledger.com/wp-content/themes/subledger/img/asset-deco1.png") center bottom transparent no-repeat; }
 
-/* line 70, ../scss/main.sass */
+/* line 73, ../scss/main.sass */
 #main-content-last {
   background: none; }
 
-/* line 73, ../scss/main.sass */
+/* line 76, ../scss/main.sass */
 .row.heart {
   margin: 0;
   padding-bottom: 0;
   background-color: #f1f1f1;
   border-radius: 10px; }
 
-/* line 79, ../scss/main.sass */
+/* line 82, ../scss/main.sass */
 #contact {
   padding-top: 1rem;
   background: #005164;
   text-decoration: none; }
-  /* line 83, ../scss/main.sass */
+  /* line 86, ../scss/main.sass */
   #contact h2 {
     text-align: center; }
-  /* line 85, ../scss/main.sass */
+  /* line 88, ../scss/main.sass */
   #contact h2, #contact h3, #contact a {
     font-size: 1rem;
     color: white; }
-  /* line 88, ../scss/main.sass */
+  /* line 91, ../scss/main.sass */
   #contact p {
     color: #33afcd; }
-    /* line 90, ../scss/main.sass */
+    /* line 93, ../scss/main.sass */
     #contact p a {
       color: #33afcd; }
 
-/* line 93, ../scss/main.sass */
+/* line 96, ../scss/main.sass */
 .contact-middle {
   border-left: 1px dashed #63dc83;
   border-right: 1px dashed #63dc83; }

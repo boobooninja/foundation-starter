@@ -88,7 +88,7 @@
             </li>
           </ul>
 
-          <div class="magellan-container" data-magellan-expedition="fixed" data-options="destination_threshold:65;throttle_delay:0;" style>
+          <div class="magellan-container" data-magellan-expedition="fixed">
             <form>
               <div class="row collapse">
                 <div class="small-5 medium-5 large-5 columns form-field">
@@ -207,6 +207,7 @@ We’ve got you covered.</p>
       <script type="text/javascript" src="./js/jquery.min.js"></script>
       <script type="text/javascript" src="./js/foundation.min.js"></script>
       <script type="text/javascript">
+      //threshold:651;destination_threshold:65;throttle_delay:0;
         $(document).foundation({
           orbit: {
             pause_on_hover: true,
@@ -215,6 +216,13 @@ We’ve got you covered.</p>
             slide_number: false,
             swipe: true,
             timer_speed: 7000
+          }
+        });
+
+        $(window).on('scroll', function() {
+          var h = $(this).scrollTop();
+          if(h > 651) {
+            var mt = $(".magellan-container").css('margin-top', "45px");
           }
         });
       </script>
